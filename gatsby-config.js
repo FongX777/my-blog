@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Fong's Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Fong Liou`,
+      summary: `Software engineer and life-long learner`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
@@ -13,6 +13,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-image`,
+    'gatsby-plugin-use-dark-mode',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
